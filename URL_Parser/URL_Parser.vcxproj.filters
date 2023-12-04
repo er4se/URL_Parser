@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4af8a93e-cfe6-4671-ac12-086a23ff35a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit_tests">
+      <UniqueIdentifier>{dd1347d1-f1c1-47b2-9044-3246bdece953}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="URLParser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="URLParser_Test.cpp">
+      <Filter>unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Main.cpp">
+      <Filter>unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

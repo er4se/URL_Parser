@@ -1,0 +1,10 @@
+^C:\USERS\ER4SE\CPP_WORKS\URL_PARSER\URL_PARSER\OUT\CMAKEFILES\9E2D0973B462F66339A5CB29FA83D33F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/er4se/cpp_works/URL_Parser/URL_Parser -BC:/Users/er4se/cpp_works/URL_Parser/URL_Parser/out --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/er4se/cpp_works/URL_Parser/URL_Parser/out/URL_Parser.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
